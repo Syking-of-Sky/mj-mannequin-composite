@@ -79,7 +79,7 @@ python3 scripts/mj_autopost.py gen --brief scripts/example-brief.json --shot 01-
 python3 scripts/mj_autopost.py batch --brief scripts/example-brief.json --out runs/white-tiger
 
 # 5. 挑一张，擦掉人偶
-python3 scripts/mj_autopost.py erase --image runs/white-tiger/01-rain-alley/01.png
+python3 scripts/mj_autopost.py erase --image runs/white-tiger/01-rain-alley/01.png --out runs/white-tiger/clean
 
 # 6. 生成联系表
 python3 scripts/mj_autopost.py sheet --dir runs/white-tiger
