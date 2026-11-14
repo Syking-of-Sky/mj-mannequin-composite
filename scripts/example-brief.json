@@ -1,0 +1,148 @@
+{
+  "project": "white-tiger",
+  "output": "runs/white-tiger",
+  "defaults": {
+    "version": "8.2",
+    "mode": "fast",
+    "private": false,
+    "style": "photorealistic, cinematic",
+    "negative": [
+      "real human",
+      "clothing",
+      "hair",
+      "text",
+      "watermark",
+      "monochrome",
+      "grayscale",
+      "clay render",
+      "white model",
+      "desaturated"
+    ],
+    "forbidden_terms": [
+      "维琳娜",
+      "白虎娘"
+    ]
+  },
+  "shots": [
+    {
+      "id": "01-rain-alley",
+      "aspect": "3:2",
+      "focal": "85mm",
+      "camera": "eye-level",
+      "framing": "full body shot",
+      "composition": "centered composition, space on both sides",
+      "mannequin": {
+        "size": "slim adult female",
+        "pose": "standing beside the tiger's shoulder, holding an oil-paper umbrella over herself, hip cocked to one side, one hand resting on the tiger's back, glancing back over her shoulder, graceful S-curve pose"
+      },
+      "animal": "a full grown adult white tiger with a muscular body standing on all four paws",
+      "interaction": "the two in the center of the frame with space on both sides, her entire body including hands and feet inside the frame",
+      "scene": "in the middle of a narrow Jiangnan stone alley, white walls and black tiles on either side, wet flagstones reflecting the light",
+      "light": "soft overcast rain light",
+      "color": "white plaster walls, black tile roofs, dark wet stone with soft reflections",
+      "params": "--style raw --s 100",
+      "negative_extra": [
+        "palace",
+        "cat",
+        "kitten"
+      ],
+      "tags": [
+        "雨巷",
+        "上午"
+      ]
+    },
+    {
+      "id": "02-courtyard-noon",
+      "aspect": "3:2",
+      "focal": "50mm",
+      "camera": "eye-level",
+      "framing": "cowboy shot",
+      "composition": "centered composition",
+      "mannequin": {
+        "size": "slim adult female",
+        "pose": "sitting on a weathered stone bench under a pomegranate tree, one hand resting on the tiger's head, looking down at it, relaxed elegant posture"
+      },
+      "animal": "a full grown adult white tiger with a muscular body lying at her feet",
+      "interaction": "their heads close together, the two looking at each other",
+      "scene": "in a Jiangnan courtyard with white walls, black tiles, a stone well and a pomegranate tree",
+      "light": "harsh noon sunlight filtering through the leaves, dappled shadows",
+      "color": "warm grey stone, deep green leaves, red pomegranate flowers",
+      "params": "--style raw --s 100",
+      "negative_extra": [
+        "palace",
+        "cat",
+        "kitten"
+      ],
+      "tags": [
+        "庭院",
+        "正午"
+      ]
+    },
+    {
+      "id": "03-lattice-window",
+      "aspect": "3:2",
+      "focal": "85mm",
+      "camera": "eye-level",
+      "framing": "medium close-up",
+      "composition": "voyeur view through a carved wooden lattice window",
+      "mannequin": {
+        "size": "slim adult female",
+        "pose": "leaning on the wooden window sill, one hand lifting the curtain, looking out into the courtyard"
+      },
+      "animal": "the blurred whiskers and shoulder of a white tiger in the foreground",
+      "interaction": "the tiger out of focus in front, the woman sharp behind the lattice",
+      "scene": "inside a dim Jiangnan teahouse, carved wooden lattice window, dust motes in the light",
+      "light": "warm late afternoon sunlight raking through the lattice",
+      "color": "amber wood, ivory plaster, deep shadows",
+      "params": "--style raw --s 100",
+      "negative_extra": [
+        "palace",
+        "cat",
+        "kitten"
+      ],
+      "tags": [
+        "漏窗",
+        "午后"
+      ]
+    },
+    {
+      "id": "04-snow-dream",
+      "aspect": "3:2",
+      "focal": "35mm",
+      "camera": "slightly low angle",
+      "framing": "wide shot",
+      "composition": "centered composition, negative space on both sides",
+      "mannequin": {
+        "size": "slim adult female",
+        "pose": "lying on her side in the snow beside the sleeping tiger, one hand resting on its paw, eyes closed"
+      },
+      "animal": "a full grown adult white tiger with a muscular body curled up asleep",
+      "interaction": "their breath visible in the cold air, bodies close but touching only at her hand",
+      "scene": "in a snow-covered Jiangnan courtyard, white walls and black tiles capped with snow, bare plum branches",
+      "light": "blue hour after sunset, soft cold light, warm lantern glow from a doorway",
+      "color": "blue snow shadows, warm amber lantern light, black tile lines",
+      "params": "--style raw --s 100",
+      "negative_extra": [
+        "palace",
+        "cat",
+        "kitten",
+        "cropped hands",
+        "cropped feet"
+      ],
+      "tags": [
+        "雪地",
+        "夜",
+        "梦"
+      ]
+    },
+    {
+      "id": "05-tea-party",
+      "aspect": "4:5",
+      "prompt": "85mm, eye-level, centered composition, a tall slim adult female faceless matte grey artist mannequin with smooth jointed limbs sitting elegantly on a floating ivory and gold Rococo armchair, holding a cobalt blue and white porcelain teacup with a gold rim, a large white folding fan with gold ribs and blue edges in her other hand, a floating teapot, saucers and a tiered gold cake stand drifting around her, a spiral of amber tea swirling in the wind, warm ivory European hall with champagne gold moldings and tall arched windows, soft warm daylight, only the mannequin is matte grey, the rest of the scene in full rich color, photorealistic, cinematic --ar 4:5 --s 200 --no real human, clothing, hair, anime, monochrome, grayscale, clay render, white model, desaturated, text, watermark",
+      "tags": [
+        "茶会",
+        "定稿"
+      ]
+    }
+  ]
+}
